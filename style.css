@@ -1,0 +1,55 @@
+:root {
+  --laranja: #ff9900;
+  --preto: #000000;
+  --cinza: #7d7987;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  min-height: 100vh;
+
+  font-family: "open sans", sans-serif;
+}
+
+#hero {
+  width: 592px;
+  margin: 0 auto 72px;
+}
+#hero img {
+  margin-bottom: 72px;
+}
+
+h1 {
+  font-family: "inter", sans-serif;
+  margin-bottom: 32px;
+  font-size: 49px;
+}
+p {
+  color: var(--cinza);
+  font-size: 14px;
+}
+span {
+  color: var(--laranja);
+}
+footer a + a {
+  padding-left: 18px;
+}
+
+a {
+  color: var(--laranja);
+}
+
+#linha {
+  width: 568px;
+  height: 0px;
+
+  margin: 0 auto 8px;
+  border: 1px var(--cinza) solid;
+}
+
+#balls {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
